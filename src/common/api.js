@@ -1,4 +1,4 @@
-export const bookApiUrl = 'http://localhost:3000/books';
+export const bookApiUrl = 'https://my-json-server.typicode.com/isabelrubim/the-library/books';
 
 export function httpGet(path) {
   return req(path);
